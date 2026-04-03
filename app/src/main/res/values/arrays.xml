@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 兼容 MainActivity 的静态菜单（值需与 Java 解析逻辑一致） -->
+    <string-array name="record_sources">
+        <item>MIC</item>
+        <item>VOICE_COMMUNICATION</item>
+        <item>CAMCORDER</item>
+    </string-array>
+
+    <string-array name="sample_rates_numeric">
+        <item>8000</item>
+        <item>16000</item>
+        <item>24000</item>
+        <item>44100</item>
+        <item>48000</item>
+        <item>96000</item>
+    </string-array>
+
+    <string-array name="channel_counts">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pcm_formats">
+        <item>PCM_16BIT</item>
+        <item>PCM_8BIT</item>
+    </string-array>
+
+    <string-array name="frame_lengths_ms">
+        <item>10</item>
+        <item>20</item>
+        <item>40</item>
+        <item>60</item>
+    </string-array>
+
+    <string-array name="audio_mode_labels">
+        <item>NORMAL</item>
+        <item>IN_COMMUNICATION</item>
+        <item>IN_CALL</item>
+    </string-array>
+
+    <string-array name="play_source_labels">
+        <item>静音数据</item>
+        <item>回环(采集)</item>
+        <item>WAV文件</item>
+        <item>WAV URL</item>
+    </string-array>
+
+    <string-array name="sample_rates">
+        <item>8000 Hz</item>
+        <item>16000 Hz</item>
+        <item>22050 Hz</item>
+        <item>32000 Hz</item>
+        <item>44100 Hz</item>
+        <item>48000 Hz</item>
+    </string-array>
+
+    <string-array name="channels">
+        <item>单声道</item>
+        <item>双声道</item>
+    </string-array>
+
+    <string-array name="formats">
+        <item>PCM 8BIT</item>
+        <item>PCM 16BIT</item>
+    </string-array>
+
+    <string-array name="audio_routes">
+        <item>主麦克风</item>
+        <item>耳机麦克风</item>
+        <item>蓝牙麦克风</item>
+        <item>通话麦克风</item>
+    </string-array>
+
+    <string-array name="audio_modes">
+        <item>正常模式</item>
+        <item>通话模式</item>
+        <item>低延迟模式</item>
+        <item>音乐模式</item>
+    </string-array>
+</resources>
